@@ -1,49 +1,26 @@
 body {
-  position: relative;
-  padding: 20px;
-  border-radius: 10px;
-  order: inherit;
-  border-bottom: #ffffff;
+ 
   color: #434455;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 50px;
-}
-.nav {
-  display: inline-block;
-  position: relative;
-  margin-left: 100px;
-}
+
 .nav > .logo-one {
-  display: inline-block;
-  position: relative;
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
 }
 .nav > .logo-one > .studio {
   color: #2e2f42;
 }
-.nav > .list-one {
-  display: inline-block;
-  position: relative;
-  margin-left: 100px;
-}
-.nav > .list-one li {
-  display: inline-block;
-  position: relative;
-}
+
+
+
 .nav > .list-one a {
   text-decoration: none;
   font-size: 16px;
@@ -51,19 +28,14 @@ header {
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
-  margin-left: 25px;
-}
-.address {
-  display: inline-block;
-  position: relative;
-  margin-left: 180px;
-  font-style: normal;
-}
-.address li {
-  display: inline-block;
-  position: relative;
   
 }
+.address {
+  font-style: normal;
+}
+
+  
+
 .address li a {
   text-decoration: none;
   font-style: normal;
@@ -71,27 +43,23 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-left: 150px;
-  position: relative;
-  left: 150px;
+
   }
-.nav a:hover {
-  color: #404bbf;
-}
-.nav a:focus {
-  color: #404bbf;
-}
-.address a:hover {
-  color: #404bbf;
-}
-.address a:focus {
-  color: #404bbf;
-}
+  .nav a:hover {
+    color: #404bbf;
+  }
+  .nav a:focus {
+    color: #404bbf;
+  }
+  .address a:hover {
+    color: #404bbf;
+  }
+  .address a:focus {
+    color: #404bbf;
+  }
 
 .hero {
   background-color: #2e2f42;
-  width: 100%;
-  height: 732px;
   position: relative;
   display: block;
   font-family: "Roboto", Arial, sans-serif;
@@ -105,10 +73,7 @@ header {
   position: relative;
   display: inline-block;
   text-align: center;
-  width: 500px;
-  height: 732px;
-  margin-left: 8px;
-  margin-top: 150px;
+
 }
 .hero button {
   background-color: #4d5ae5;
@@ -118,14 +83,8 @@ header {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 169px;
-  height: 56px;
-  border-radius: 4px;
   cursor: pointer;
-  position: absolute;
-  top: 428px;
-  margin-right: 5px;
-  transform: translate(-200%, 0%);
+
 }
 .hero button:hover {
   background-color: #404bbf;
@@ -134,22 +93,11 @@ header {
   background-color: #404bbf;
 }
 
-.first-sec {
-  width: 100%;
-  height: 250px;
-  position: relative;
-  display: block;
-  top: -16px;
-}
+
 .first-sec li {
-  position: relative;
-  display: inline-block;
+ 
   list-style: none;
-  width: 270px;
-  height: 104px;
-  top: 50px;
-  left: 310px;
-  margin-left: 15px;
+
 }
 .first-sec li > .h-first {
   font-weight: 500;
@@ -163,44 +111,24 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 15px;
+ 
 }
 
 .second-sec {
   background-color: #f4f4fd;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 732px;
+
 }
 .second-sec h2 {
-  position: relative;
-  display: inline-block;
   color: #2e2f42;
-  width: 240px;
-  height: 40px;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  top: 100px;
-  left: 800px;
 }
 .second-sec li {
-  position: relative;
-  display: inline-block;
   background-color: #ffffff;
-  text-align: center;
   font-size: 20px;
   line-height: 24px;
-  width: 264px;
-  left: 280px;
-  top: 125px;
-  box-shadow: 0px 1px 6px 0px #2e2f4214;
-  margin-right: 50px;
-}
+ }
 .second-sec li h3 {
   font-weight: 500;
   font-size: 20px;
@@ -217,39 +145,23 @@ header {
 
 .third-sec {
   background-color: #ffffff;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 1000px;
+
   
 }
 .third-sec h2 {
   position: relative;
   display: inline-block;
   color: #2e2f42;
-  width: 250px;
-  height: 40px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  text-transform: capitalize;
-  left: 800px;
-  top: 5px;
 }
-.third-sec li {
-  border: 1px solid #e7e9fc;
-  position: relative;
-  display: inline-block;
-  text-align: left;
-  width: 360px;
-  left: 200px;
-  margin-left: 50px;
-  margin-top: 15px;
-  margin-right: 45px;
+
+
   
-}
+
 .third-sec li h3 {
   font-size: 20px;
   line-height: 1.2;
@@ -266,38 +178,21 @@ header {
 
 .footer {
   background-color: #2e2f42;
-  display: block;
-  width: 100%;
-  height: 312px;
-  color: #f4f4fd;
-  position: relative;
-  padding-left: 50px;}
+  color: #f4f4fd;}
+ 
 .footer > .logo-end {
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-size: 18px;
   line-height: 1.17;
   font-weight: 700;
-  height: 25px;
-  top: 80px;
   margin-left: 100px;
-  text-decoration: none;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .footer a > .studio {
   color: #f4f4fd;
 }
 .footer p {
-  position: relative;
-  top: 15px;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  width: 300px;
-  margin-left: 100px;
-  margin-top: 90px;
-}
+  letter-spacing: 0.02em;}
