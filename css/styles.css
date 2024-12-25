@@ -64,17 +64,17 @@ header {
   color: #2e2f42;
   margin-left: 25px;
 }
-.add-one {
+.address {
   display: inline-block;
   position: relative;
   margin-left: 150px;
   font-style: normal;
 }
-.add-one li {
+.address li {
   display: inline-block;
   position: relative;
 }
-.add-one li a {
+.address li a {
   text-decoration: none;
   font-style: normal;
   font-size: 16px;
