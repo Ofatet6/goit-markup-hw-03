@@ -1,19 +1,8 @@
 body {
   position: relative;
-  width: 100%;
-  height: 220vh;
-  left: auto;
-  top: auto;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
   padding: 20px;
-  flex-direction: column;
-  gap: 10px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   order: inherit;
-  flex-grow: inherit;
   border-bottom: #ffffff;
   color: #434455;
   background-color: #ffffff;
@@ -23,7 +12,7 @@ body {
 header {
   display: block;
   position: relative;
-  width: 1250px;
+  width: 100%;
   height: 50px;
 }
 .nav {
@@ -67,12 +56,13 @@ header {
 .address {
   display: inline-block;
   position: relative;
-  margin-left: 150px;
+  margin-left: 180px;
   font-style: normal;
 }
 .address li {
   display: inline-block;
   position: relative;
+  
 }
 .address li a {
   text-decoration: none;
@@ -81,8 +71,10 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-left: 25px;
-}
+  margin-left: 150px;
+  position: relative;
+  left: 150px;
+  }
 .nav a:hover {
   color: #404bbf;
 }
@@ -98,11 +90,12 @@ header {
 
 .hero {
   background-color: #2e2f42;
-  width: 1250px;
-  height: 600px;
+  width: 100%;
+  height: 732px;
   position: relative;
   display: block;
   font-family: "Roboto", Arial, sans-serif;
+  text-align: center;
 }
 .hero h1 {
   color: white;
@@ -113,8 +106,8 @@ header {
   display: inline-block;
   text-align: center;
   width: 500px;
-  height: 125px;
-  margin-left: 400px;
+  height: 732px;
+  margin-left: 8px;
   margin-top: 150px;
 }
 .hero button {
@@ -127,10 +120,12 @@ header {
   letter-spacing: 0.04em;
   width: 169px;
   height: 56px;
-  margin-left: 550px;
-  border: 1px solid #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  position: absolute;
+  top: 428px;
+  margin-right: 5px;
+  transform: translate(-200%, 0%);
 }
 .hero button:hover {
   background-color: #404bbf;
@@ -139,45 +134,46 @@ header {
   background-color: #404bbf;
 }
 
-.first {
-  width: 1250px;
+.first-sec {
+  width: 100%;
   height: 250px;
   position: relative;
   display: block;
   top: -16px;
 }
-.first li {
+.first-sec li {
   position: relative;
   display: inline-block;
   list-style: none;
   width: 270px;
   height: 104px;
   top: 50px;
-  left: 20px;
-  margin-left: 10px;
+  left: 310px;
+  margin-left: 15px;
 }
-.first li > .h-first {
+.first-sec li > .h-first {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.first li > .p-first {
+.first-sec li > .p-first {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-top: 15px;
 }
 
-.second {
+.second-sec {
   background-color: #f4f4fd;
   position: relative;
   display: block;
-  width: 1250px;
-  height: 750px;
+  width: 100%;
+  height: 732px;
 }
-.second h2 {
+.second-sec h2 {
   position: relative;
   display: inline-block;
   color: #2e2f42;
@@ -190,9 +186,9 @@ header {
   text-align: center;
   text-transform: capitalize;
   top: 100px;
-  left: 550px;
+  left: 800px;
 }
-.second li {
+.second-sec li {
   position: relative;
   display: inline-block;
   background-color: #ffffff;
@@ -200,33 +196,34 @@ header {
   font-size: 20px;
   line-height: 24px;
   width: 264px;
-  left: 20px;
-  margin-left: 10px;
+  left: 280px;
   top: 125px;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
+  margin-right: 50px;
 }
-.second li h3 {
+.second-sec li h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.second li p {
+.second-sec li p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.third {
+.third-sec {
   background-color: #ffffff;
   position: relative;
   display: block;
-  width: 1250px;
-  height: 1250px;
+  width: 100%;
+  height: 1000px;
+  
 }
-.third h2 {
+.third-sec h2 {
   position: relative;
   display: inline-block;
   color: #2e2f42;
@@ -238,28 +235,29 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  top: 100px;
-  left: 500px;
+  left: 800px;
+  top: 5px;
 }
-.third li {
+.third-sec li {
   border: 1px solid #e7e9fc;
   position: relative;
   display: inline-block;
   text-align: left;
   width: 360px;
-  left: 5px;
-  margin-left: 20px;
-  margin-top: 25px;
-  top: 125px;
+  left: 200px;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-right: 45px;
+  
 }
-.third li h3 {
+.third-sec li h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
 }
-.third li p {
+.third-sec li p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -269,11 +267,11 @@ header {
 .footer {
   background-color: #2e2f42;
   display: block;
-  width: 1250px;
-  height: 250px;
+  width: 100%;
+  height: 312px;
   color: #f4f4fd;
   position: relative;
-}
+  padding-left: 50px;}
 .footer > .logo-end {
   display: inline-block;
   position: relative;
@@ -284,7 +282,7 @@ header {
   line-height: 1.17;
   font-weight: 700;
   height: 25px;
-  top: 50px;
+  top: 80px;
   margin-left: 100px;
   text-decoration: none;
   letter-spacing: 0.03em;
@@ -295,11 +293,11 @@ header {
 }
 .footer p {
   position: relative;
-  top: 50px;
+  top: 15px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 300px;
   margin-left: 100px;
-  margin-top: 10px;
+  margin-top: 90px;
 }
