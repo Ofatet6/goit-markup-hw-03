@@ -110,6 +110,9 @@ body {
   display: flex;
   width: 1158px;
   text-decoration: none;
+  width: 1158px;
+  margin:  0 auto;
+  padding: 0 15px;
 }
 
 h1,
@@ -126,7 +129,7 @@ p {
 
 /*header bölümü*/
 html,
-header {
+.header-one{
   border: 1px solid #e7e9fc;
   background-color: white;
   width: 1440px;
@@ -144,7 +147,7 @@ header {
     
 }
 
-header .upper-part .logo {
+.header-one .upper-part .logo-first {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -152,8 +155,9 @@ header .upper-part .logo {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   display: flex;
+  margin-right: 76px;
 }
-header .upper-part .studio {
+.header-one .upper-part .studio-first {
   width: 71px;
   height: 21px;
   font-family: "Raleway", sans-serif;
@@ -164,7 +168,7 @@ header .upper-part .studio {
   text-transform: uppercase;
   color: #2e2f42;
 }
-header .upper-part .list-1 {
+.header-one .upper-part .list-one {
   display: flex;
   gap: 40px;
   transform: translate(-50%, 0);
@@ -173,19 +177,23 @@ header .upper-part .list-1 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  align-items: center;
 }
-header .upper-part .list-1 a:hover {
+.page-one {
+  padding: 24px 0;
+}
+.header-one .upper-part .list-one a:hover {
   color: #4d5ae5;
 }
 
-header .upper-part .address {
+.header-one .upper-part .address-one {
   display: flex;
   gap: 40px;
 }
-header .upper-part .address a {
+.header-one .upper-part .address-one a {
   color: #2e2f42;
 }
-header .upper-part .address a:hover {
+.header-one .upper-part .address-one a:hover {
   color: #4d5ae5;
 }
 /* header bölümü bitti*/
@@ -195,11 +203,11 @@ header .upper-part .address a:hover {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
-  padding: 120px 120px;
   text-align: center;
+  padding: 188px 0;
 }
 
-.hero h1 {
+.hero .main-hero {
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 0.02em;
@@ -209,12 +217,12 @@ header .upper-part .address a:hover {
   max-width: 496px;
 }
 
-.hero button {
-  width: 169px;
+.hero .button-one {
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
   background-color: #4d5ae5;
-  color: #fff;
+  color: #ffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -223,26 +231,42 @@ header .upper-part .address a:hover {
   margin: 0 auto;
   cursor: pointer;
   display: block;
+  border: none;
 }
 
-.hero button:hover,
-.hero button:focus,
-.hero button:active {
+.hero .button-one:hover,
+.hero .button-one:focus,
+.hero .button-one:active {
   background-color: #404bbf;
 }
 
 .first-sec {
-  padding: 120px 120px;
+  padding: 120px 0;
   width: 1128px;
   margin: 0 auto;
 }
-.first-sec ul {
+.visually-hidden {
+  .visually-hidden 
+    position: absolute;    /* Öğeyi sayfanın dışında konumlandırır */
+    width: 1px;            /* Çok küçük bir genişlik */
+    height: 1px;           /* Çok küçük bir yükseklik */
+    margin: -1px;          /* Margini eksi bir piksel olarak ayarlar */
+    padding: 0;            /* İç boşluğu sıfırlar */
+    overflow: hidden;      /* Taşan içerikleri gizler */
+    clip: rect(0, 0, 0, 0);/* Görsel olarak öğeyi görünmez yapar */
+    border: 0;             /* Sınırları sıfırlar */
+}
+.first-sec .first-ul {
   display: flex;
   gap: 24px;
   justify-content: center;
 }
 
-.first-sec ul li h3 {
+.first-sec .first-ul .first-a {
+  width: calc(100%-72px/4);
+}
+
+.first-sec .first-ul .first-a .first-h {
   width: 264px;
   height: 24px;
   font-weight: 500;
@@ -250,9 +274,10 @@ header .upper-part .address a:hover {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
-.first-sec ul li p {
+.first-sec .first-ul .first-a p {
   width: 264px;
   height: 72px;
   font-weight: 400;
@@ -263,72 +288,92 @@ header .upper-part .address a:hover {
   margin-top: 8px;
 }
 .second-sec {
-  width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
-  padding: 120px 120px;
+  padding: 120px 0;
   text-align: center;
 }
-.second-sec h2 {
+.second-sec .our-one {
+ 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 72px;
+  
 }
 
-.second-sec ul {
+.second-sec .second-ul {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-top: 72px;
   color: #ffffff;
-  height: 380px;
+  
 }
-.second-sec ul li {
+.product-designer {
+  padding: 32px 0;
+}
+.second-sec .second-ul .team-list {
   box-shadow: 0 2px 4px #2e2f42;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
   background-color: #fff;
+  width: calc(100%-72px/4);
 }
 
-.second-sec ul li h3 {
+.second-sec .second-ul .team-list .team-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-top: 32px;
+  text-align: center;
+  margin-bottom: 8px;
 }
-.second-sec ul li p {
+.second-sec .second-ul .team-list p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   margin-top: 8px;
+  text-align: center;
 }
-
+.frontend-developer {
+  padding: 32px 0;
+}
+.market-ing {
+  padding: 32px 0;
+}
+.designer-uı {
+  padding: 32px 0;
+}
 .third-sec {
-  padding: 120px 120px;
+  display: flex;
+  padding: 120px 0;
   text-align: center;
 }
 
-.third-sec h2 {
+.third-sec .our-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
-.third-sec ul {
+.third-sec .our-ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
-.third-sec ul li {
+.third-sec .our-ul .our-list {
+  width: calc(100%-72px/4);
   background-color: #ffff;
   margin-top: 72px;
   text-align: left;
@@ -336,7 +381,13 @@ header .upper-part .address a:hover {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
 }
-.third-sec ul h3 {
+.bank-app{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+.third-sec .our-ul h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -344,7 +395,7 @@ header .upper-part .address a:hover {
   color: #2e2f42;
   margin-top: 32px;
 }
-.third-sec ul p {
+.third-sec .our-ul p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -353,18 +404,21 @@ header .upper-part .address a:hover {
   margin-top: 8px;
 }
 .footer {
-  padding: 120px 120px;
+  padding: 100px 0;
   background-color: #2e2f42;
   padding-left: 156px;
   margin-top: 100px;
+  
 }
 .footer .logo-end {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .footer .studio-1 {
@@ -378,7 +432,8 @@ header .upper-part .address a:hover {
   text-transform: uppercase;
   color: #fff;
 }
-.footer p {
+.footer .footer-p {
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
