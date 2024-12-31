@@ -246,8 +246,7 @@ html,
   margin: 0 auto;
 }
 .visually-hidden {
-  .visually-hidden 
-    position: absolute;    /* Öğeyi sayfanın dışında konumlandırır */
+    position:absolute;    /* Öğeyi sayfanın dışında konumlandırır */
     width: 1px;            /* Çok küçük bir genişlik */
     height: 1px;           /* Çok küçük bir yükseklik */
     margin: -1px;          /* Margini eksi bir piksel olarak ayarlar */
@@ -263,7 +262,7 @@ html,
 }
 
 .first-sec .first-ul .first-a {
-  width: calc(100%-72px/4);
+  width: calc(100% - 72px / 4);
 }
 
 .first-sec .first-ul .first-a .first-h {
@@ -318,7 +317,7 @@ html,
   box-shadow: 0 2px 4px #2e2f42;
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
-  width: calc(100%-72px/4);
+  width: calc(100% - 72px / 4);
 }
 
 .second-sec .second-ul .team-list .team-name {
@@ -373,7 +372,7 @@ html,
   row-gap: 48px;
 }
 .third-sec .our-ul .our-list {
-  width: calc(100%-72px/4);
+  width: calc(100% - 72px / 4);
   background-color: #ffff;
   margin-top: 72px;
   text-align: left;
@@ -440,5 +439,6 @@ html,
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  margin-top: 16px;
+  margin-top: 18px;
+  transform: translate(-45%, 0);
 }
