@@ -403,19 +403,17 @@ img { display: block;}
   margin-top: 8px;
 }
 .footer {
-  padding: 100px 0;
+  padding:100px 0;
   background-color: #2e2f42;
-  padding-left: 156px;
-  margin-top: 100px;
-  
+   
 }
 .footer .logo-end {
-  display: inline-block;
+  display:inline-block;
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  font-weight:700;
+  font-size:18px;
+  line-height:1.17;
+  letter-spacing:0.03em;
   color: #4d5ae5;
   margin-bottom: 16px;
 }
@@ -438,7 +436,6 @@ img { display: block;}
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  width: 264px;
   margin-top: 18px;
   transform: translate(-45%, 0);
 }
