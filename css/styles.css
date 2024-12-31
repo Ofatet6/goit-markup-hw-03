@@ -131,9 +131,6 @@ img { display: block;}
   display: flex;
 }
 .container {
-  display: flex;
-  width: 1158px;
-  text-decoration: none;
   width: 1158px;
   margin:  0 auto;
   padding: 0 15px;
