@@ -106,14 +106,6 @@ body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
-.container {
-  display: flex;
-  width: 1158px;
-  text-decoration: none;
-  width: 1158px;
-  margin:  0 auto;
-  padding: 0 15px;
-}
 
 h1,
 h2,
@@ -126,18 +118,24 @@ ul {
 p {
   font-family: "Roboto", sans-serif;
 }
+img { display: block;}
 
 /*header bölümü*/
-html,
 .header-one{
   border: 1px solid #e7e9fc;
   background-color: white;
-  width: 1440px;
-  height: 72px;
   display: flex;
   flex-direction: column;
 }
 
+.container {
+  display: flex;
+  width: 1158px;
+  text-decoration: none;
+  width: 1158px;
+  margin:  0 auto;
+  padding: 0 15px;
+}
  .upper-part {
   display: flex;
   justify-content: space-between;
