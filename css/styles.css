@@ -58,10 +58,7 @@ body{
   margin: 0 auto;
   padding: 0 15px;
 }
-.upper-part {
-  display: flex;
-  align-items: center;
- }
+
 .nav-part {
   display: flex;
   align-items: center;
