@@ -46,13 +46,14 @@ img { display: block;}
   flex-direction: column;
 }
 
-.header-div{
-  display: flex;
-}
+
 .container {
+  display: flex;
   margin:  0 auto;
   padding: 0 15px;
 }
+
+
  .upper-part {
   display:flex;
   justify-content: space-between;
@@ -61,6 +62,9 @@ img { display: block;}
   margin-top: 24px;
   width: 1158px;
   padding: 0 15px;
+}
+.nav-part{
+  align-items: center;
 }
 
 .header-one .upper-part .logo-first {
@@ -106,6 +110,10 @@ img { display: block;}
   display: flex;
   gap: 40px;
 }
+.add-ul{
+  display: flex;
+  gap: 40px;
+}
 .header-one .upper-part .address-one a {
   color: #2e2f42;
 }
@@ -114,6 +122,9 @@ img { display: block;}
 }
 /* header bölümü bitti*/
 /* main bölümü*/
+.hero-sec {
+  padding: 188px 0;
+}
 
 .hero {
   background-color: #2e2f42;
