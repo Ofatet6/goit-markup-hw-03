@@ -218,21 +218,20 @@ body{
   column-gap: 24px;
   row-gap: 48px;
 }
-.port-t {
+.our-list .port-t {
   border-bottom: 1px solid var(--cornflower);
   border-left: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
   text-align: left;
   padding: 32px 16px; 
 }
-.port-t .our-porth {
+.our-porth {
   margin-bottom: 8px;
     color: var(--navy-blue);
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em; 
 } 
-
 
 
 .footer {
